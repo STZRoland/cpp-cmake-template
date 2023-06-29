@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.2)
 
 # Define the project
 project(
-  TemplateProject
+  CMakeTemplate
   VERSION 0.1.0
   LANGUAGES CXX)
 
@@ -21,4 +21,4 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 # Define the executable (move to a subfolder along with the main.cpp file)
 add_executable(CMakeTemplate main.cpp)
 target_compile_features(CMakeTemplate PRIVATE cxx_std_17)
-target_link_libraries(CMakeTemplate PRIVATE "lib_a")
+target_link_libraries(CMakeTemplate PRIVATE "lib_a" "lib_b")

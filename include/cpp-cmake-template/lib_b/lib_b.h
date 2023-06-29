@@ -4,4 +4,4 @@
 namespace lib_b
 {
     std::string getMessage();
-} // namespace name
+}

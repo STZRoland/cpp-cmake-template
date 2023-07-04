@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
 
-namespace lib
+namespace sub_lib
 {
     std::string getMessage();
-    std::string getSubLibMessage();
-}
+    
+} // namespace sub_lib

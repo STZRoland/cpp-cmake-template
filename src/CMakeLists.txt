@@ -27,5 +27,10 @@ target_include_directories(
 # Ensure that the library headers are written to build/include
 # --> You have to use install() from GNUInstallDirs
 
+# Add the sub-directories
+add_subdirectory(sub_lib)
+
 # Link the library to the dependencies
-target_link_libraries(${PROJECT_LIBRARY_NAME} PRIVATE Boost::boost)
+target_link_libraries(${PROJECT_LIBRARY_NAME} 
+  PRIVATE "sub_lib" Boost::boost
+)

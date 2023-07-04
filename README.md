@@ -1,7 +1,5 @@
 # Cpp-CMake-Template
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This is a template for a C++ project using CMake.
 
 ## Description
@@ -39,16 +37,5 @@ In top level directory type:
   - https://www.siliceum.com/en/blog/post/cmake_01_cmake-basics
 - Comprehensive Book: https://crascit.com/professional-cmake/
 
-
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
 ## License
-
 This project is licensed under the [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) License.

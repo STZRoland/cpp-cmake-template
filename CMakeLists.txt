@@ -4,7 +4,11 @@ cmake_minimum_required(VERSION 3.2)
 project(
   CMakeTemplate
   VERSION 0.1.0
-  LANGUAGES CXX)
+  LANGUAGES CXX
+)
+
+# Include standard CMake modules
+include(CTest)
 
 # Define the name of the subfolder where the project's include files are located
 set(PROJECT_INCLUDE_FOLDER_NAME "cpp-cmake-template")

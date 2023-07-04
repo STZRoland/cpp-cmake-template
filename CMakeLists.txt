@@ -7,6 +7,8 @@ project(
   LANGUAGES CXX
 )
 
+enable_testing()
+
 # Include standard CMake modules
 include(CTest)
 
@@ -19,6 +21,7 @@ find_package(Boost REQUIRED)
 
 # The compiled library code is here
 add_subdirectory(src)
+add_subdirectory(tests)
 
 # Append the cmake directory to the module path list
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")

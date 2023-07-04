@@ -18,6 +18,9 @@ add_subdirectory(src)
 # Append the cmake directory to the module path list
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
+# Ensure that the libraries are shared
+# set(BUILD_SHARED_LIBS ON)
+
 # Define the executable (move to a subfolder along with the main.cpp file)
 add_executable(CMakeTemplate main.cpp)
 target_compile_features(CMakeTemplate PRIVATE cxx_std_17)

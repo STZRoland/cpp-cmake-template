@@ -25,7 +25,7 @@ git clone <repository_url> -b <branch_name>
 ```
 
 ### Executing program
-In top level directory type:
+In the top-level directory type:
 1. configure: `cmake -B build`
 2. generate: `cmake --build build`
 3. run: `./build CMakeTemplate`

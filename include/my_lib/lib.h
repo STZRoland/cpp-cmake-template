@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-namespace lib_a
+namespace lib
 {
     std::string getMessage();
 }
